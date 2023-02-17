@@ -159,16 +159,16 @@ public class IntegerLinkedListTest {
     @Test
     @DisplayName("remove() return false when provided list dont have this elem")
     public void removeElem_WhenEmtpyListProvided_ThenFalse() {
-        Integer i=1;
-        boolean isRemoved= emptyList.remove(i);
+        Integer i = 1;
+        boolean isRemoved = emptyList.remove(i);
         assertFalse(isRemoved);
     }
 
     @Test
     @DisplayName("remove() return true and remove elem when provided list have this elem")
     public void removeElem_WhenNotEmtpyListProvided_ThenTrue() {
-        Integer i=1;
-        boolean isRemoved= list.remove(i);
+        Integer i = 1;
+        boolean isRemoved = list.remove(i);
         assertTrue(isRemoved);
     }
 }
